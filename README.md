@@ -30,12 +30,12 @@ mvn archetype:generate^
 #### Create a project
 
 ```
-$ mvn archetype:generate -B
-  -DarchetypeGroupId=am.ik.archetype
-  -DarchetypeArtifactId=msgpack-rpc-jersey-blank-archetype
-  -DarchetypeVersion=1.0.2
-  -DgroupId=com.example
-  -DartifactId=hello-modern-rpc
+$ mvn archetype:generate -B\
+  -DarchetypeGroupId=am.ik.archetype\
+  -DarchetypeArtifactId=msgpack-rpc-jersey-blank-archetype\
+  -DarchetypeVersion=1.0.2\
+  -DgroupId=com.example\
+  -DartifactId=hello-modern-rpc\
   -Dversion=1.0.0-SNAPSHOT
 $ cd hello-modern-rpc
 ```
@@ -80,6 +80,8 @@ $ curl -v -H "Accept: application/json" "localhost:8080/calc?left=100&right=300"
 {"left":100,"right":300,"answer":400}
 ```
 
+You can change server port like as `mvn spring-boot:run -Drun.arguments="--server.port=8888"`
+
 #### Test
 
 ``` bash
@@ -92,6 +94,10 @@ $ mvn test
 $ mvn clean package
 $ java -jar target/*.jar
 ```
+
+## Write your RPC
+
+See a sample [`CalcEndpint`](https://github.com/making/msgpack-rpc-jersey-blank/blob/master/src/main/java/xxxxxx/yyyyyy/zzzzzz/CalcEndpoint.java#L14-L19)
 
 ## License
 
