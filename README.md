@@ -9,17 +9,21 @@ Maven archetype to create a modern Java RPC stack using Jetty + Jersey + Jackson
 
 with Bash
 
-    mvn archetype:generate\
-     -DarchetypeGroupId=am.ik.archetype\
-     -DarchetypeArtifactId=msgpack-rpc-jersey-blank-archetype\
-     -DarchetypeVersion=1.0.2
+``` bash
+mvn archetype:generate\
+ -DarchetypeGroupId=am.ik.archetype\
+ -DarchetypeArtifactId=msgpack-rpc-jersey-blank-archetype\
+ -DarchetypeVersion=1.0.2
+```
 
 with CommandPrompt (Windows)
 
-    mvn archetype:generate^
-     -DarchetypeGroupId=am.ik.archetype^
-     -DarchetypeArtifactId=msgpack-rpc-jersey-blank-archetype^
-     -DarchetypeVersion=1.0.2
+``` bash
+mvn archetype:generate^
+ -DarchetypeGroupId=am.ik.archetype^
+ -DarchetypeArtifactId=msgpack-rpc-jersey-blank-archetype^
+ -DarchetypeVersion=1.0.2
+```
 
 ### Example
 
