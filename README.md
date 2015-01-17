@@ -37,6 +37,26 @@ $ mvn archetype:generate -B\
   -DgroupId=com.example\
   -DartifactId=hello-modern-rpc\
   -Dversion=1.0.0-SNAPSHOT
+$ find . | sort | sed '1d;s,[^/]*/,|    ,g;s/..//;s/[^ ]*$/|-- &/'
+   |-- hello-modern-rpc
+   |    |-- pom.xml
+   |    |-- src
+   |    |    |-- main
+   |    |    |    |-- java
+   |    |    |    |    |-- com
+   |    |    |    |    |    |-- example
+   |    |    |    |    |    |    |-- App.java
+   |    |    |    |    |    |    |-- AppConfig.java
+   |    |    |    |    |    |    |-- CalcEndpoint.java
+   |    |    |    |-- resources
+   |    |    |    |    |-- application.yml
+   |    |    |-- test
+   |    |    |    |-- java
+   |    |    |    |    |-- com
+   |    |    |    |    |    |-- example
+   |    |    |    |    |    |    |-- CalcEndpointTest.java
+   |    |    |    |-- resources
+   |    |    |    |    |-- .gitkeep
 $ cd hello-modern-rpc
 ```
 
