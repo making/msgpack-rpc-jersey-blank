@@ -1,4 +1,4 @@
-# Spring Boot Jersey Blank
+# msgpack-rpc-jersey-blank
 
 Maven archetype to create a modern Java RPC stack using Jetty + Jersey + Jackson + MessagePack on Spring Boot
 
