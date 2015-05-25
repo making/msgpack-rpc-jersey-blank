@@ -13,7 +13,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.2.1.RELEASE</version>
+        <version>1.2.3.RELEASE</version>
         <relativePath/>
     </parent>
     <licenses><!-- DELETE THIS LINE -->
@@ -53,9 +53,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>xxxxxx.yyyyyy.zzzzzz.App</start-class>
         <java.version>1.8</java.version>
-        <msgpack.version>0.7.0-p3</msgpack.version>
-        <lombok.version>1.14.8</lombok.version>
-        <rest.assured.version>2.3.3</rest.assured.version>
+        <msgpack.version>0.7.0-p9</msgpack.version>
+        <lombok.version>1.16.4</lombok.version>
+        <rest.assured.version>2.4.1</rest.assured.version>
+	<spring-loaded.version>1.2.3.RELEASE</spring-loaded.version>
     </properties>
 
     <dependencies>
