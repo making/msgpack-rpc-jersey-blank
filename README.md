@@ -13,7 +13,7 @@ with Bash
 mvn archetype:generate\
  -DarchetypeGroupId=am.ik.archetype\
  -DarchetypeArtifactId=msgpack-rpc-jersey-blank-archetype\
- -DarchetypeVersion=1.0.6
+ -DarchetypeVersion=1.0.7
 ```
 
 with CommandPrompt (Windows)
@@ -22,7 +22,7 @@ with CommandPrompt (Windows)
 mvn archetype:generate^
  -DarchetypeGroupId=am.ik.archetype^
  -DarchetypeArtifactId=msgpack-rpc-jersey-blank-archetype^
- -DarchetypeVersion=1.0.6
+ -DarchetypeVersion=1.0.7
 ```
 
 ### Example
@@ -33,7 +33,7 @@ mvn archetype:generate^
 $ mvn archetype:generate -B\
   -DarchetypeGroupId=am.ik.archetype\
   -DarchetypeArtifactId=msgpack-rpc-jersey-blank-archetype\
-  -DarchetypeVersion=1.0.5\
+  -DarchetypeVersion=1.0.7\
   -DgroupId=com.example\
   -DartifactId=hello-modern-rpc\
   -Dversion=1.0.0-SNAPSHOT
