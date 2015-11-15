@@ -5,7 +5,7 @@
 
     <groupId>am.ik.archetype</groupId>
     <artifactId>msgpack-rpc-jersey-blank</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.8-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Modern Java RPC stack using Jetty+Jersey+Jackson+MessagePack (from https://github.com/making/msgpack-rpc-jersey-blank)</name>
