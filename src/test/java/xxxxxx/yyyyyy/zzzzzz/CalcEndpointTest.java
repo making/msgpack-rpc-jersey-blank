@@ -37,6 +37,7 @@ public class CalcEndpointTest {
         byte[] response = given()
                 .param("left", 100)
                 .param("right", 200)
+                .accept("application/x-msgpack")
                 .log().all()
                 .get("/calc")
                 .then()
